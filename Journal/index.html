@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>MD Template</title>
+    
+    <style type="text/css" media="all">
+    body{
+    width: auto;
+    height: 100%;
+    margin: 0px;
+    color: white;
+    font: normal 15pt Arial;
+    background-color: #443963;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+    div#toolbar{
+    width: 100%;
+    height: 60px;
+    background-color: #363636;
+    line-height: 50px;
+    text-align: left;
+    padding: 0px;
+    box-shadow: 5px 4px 7px black;
+    }
+    div#toolbar h1{
+    margin: 0px;
+    padding: 10px;
+    font: Arial;
+    }
+    
+    div#content{
+    display: block;
+    background-color: #282828;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    /* margin-top: ;
+    margin-left: auto;
+    margin-right: auto;*/
+    
+    }
+    
+    button{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font: normal 14pt Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    /*line-height: 50px;*/
+    border-radius: 8px;
+    border-width: 0px;
+    font-weight: bold;
+    }
+    
+    .widgets{
+    color: red;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    #t{
+    text-align: center;
+    }
+    em{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    }
+    #img{
+    width: 100%;
+    height: 80%;
+    display: grid;
+    margin: auto;
+    }
+    #autor{
+    text-align: left;
+    display: grid;
+    margin: auto;
+    }
+    #news{
+    min-width: 40%;
+    max-width: 90%;
+    margin: auto;
+    /* display: grid;*/
+    }
+    p{
+    justify-content: center;
+    }
+    #jornalista{
+      text-align: center;
+      margin: auto;
+      display: grid;
+    }
+    </style>
+  </head>
+  <body>
+    
+    <div id="toolbar">
+      <h1>The New Yorker</h1>
+    </div>
+    
+    <div id="content">
+      <div id="news">
+      <h1  id="t">Why Facebook Is Suddenly Afraid of the F.T.C.</h1>
+      <em>The agency is getting a second chance to convince a federal judge that the social-media giant is a monopoly which needs to be broken up.
+      </em>
+      
+        <img id="img" src="Halpern-FTCFacebook.jpg">
+        <em>Whatever comes of an amended complaint from the F.T.C., the new chair, Lina Khan, seems already to have invigorated the agency.</em><small id="autor">Photograph by Graeme Sloan / Sipa / Alamy</small>
+        <p>Last Thursday, the Federal Trade Commission got a second chance to convince James E. Boasberg, a district judge in Washington, D.C., that Facebook is a predatory monopoly. The do-over stems from a suit filed by the agency last December; it argued that the company has been engaged in anticompetitive behavior, buying up potential rivals such as WhatsApp and Instagram, and requiring third-party app developers to agree not to create products that could compete with Facebook. In June, Boasberg dismissed the suit, ruling that the agency had not sufficiently demonstrated that Facebook was, in fact, a monopoly. “Unlike familiar consumer goods like tobacco or office supplies, there is no obvious or universally agreed upon definition of just what a personal social networking service is,” he wrote. “It is almost as if the agency expects the Court to simply nod to the conventional wisdom that Facebook is a monopolist.” Shares of the social network rose more than four per cent after Boasberg’s ruling, sending the company’s market capitalization past a trillion dollars.</p>
+        
+        <p>The December lawsuit, which was initiated by the Trump Administration, is being carried forward by Biden’s. (Regulating Facebook is a rare point of bipartisan agreement in Washington, though not necessarily for the same reasons.) The new head of the agency, Lina Khan, a former F.T.C. staffer and a professor at Columbia Law School, is—at the age of thirty-two—perhaps the nation’s most prominent advocate for using antitrust law to break up Big Tech. She was counsel to a House subcommittee that issued a four-hundred-page report, in October, 2020, which found that Facebook, Google, Amazon, and Apple “have become the kinds of monopolies we last saw in the era of oil barons and railroad tycoons.” On July 14th, a month after Khan was confirmed by the Senate, Facebook sent a petition to the F.T.C. requesting that she recuse herself from “any decisions concerning whether and how to continue the F.T.C.’s antitrust case against the company.” (Amazon made a similar complaint, two weeks earlier.) In a publicly released letter, the Democratic senators Elizabeth Warren, Richard Blumenthal, and Cory Booker, along with Representative Pramila Jayapal, chastised Facebook’s C.E.O., Mark Zuckerberg, and Amazon’s C.E.O., Andy Jassy, writing, “The real basis of your concerns appears to be that you fear Chair Khan’s expertise and interpretation of federal antitrust law.” They also accused the C.E.O.s of trying to sideline and discredit Khan in order to “evade accountability for any anti-competitive behavior.”</p>
+
+        <small id="jornalista">Sue Halpern is a staff writer at The New Yorker. She is the author of, most recently, the novel “Summer Hours at the Robbers Library.”</small>
+        
+        </div>
+        <label>Fonte: <a href="https://www.newyorker.com/news/daily-comment/why-facebook-is-suddenly-afraid-of-the-ftc">The New Yorker</a></label>
+      </div>
+      
+      
+      <script>
+      function change_title(){
+      var h1 = window.document.getElementById('t')
+      console.log('Deu certo! ')
+      h1.innerHTML = 'Titulo'
+      }
+      </script>
+    </body>
+  </html>

@@ -57,7 +57,7 @@
   </head>
   <body>
     <div id="box">
-      <h1>Title</h1>
+      <h1 id="t">Title</h1>
     </div>
     
     <div id="content">
@@ -68,8 +68,8 @@
     
     <script>
     function change_title(){
-      var h1 = window.document.getElementsByTagName('h1')
-      console.log(h1.value)
+      var h1 = window.document.getElementById('t')
+      console.log('Deu certo! ')
       h1.innerHTML = 'Titulo'
     } 
     </script>
